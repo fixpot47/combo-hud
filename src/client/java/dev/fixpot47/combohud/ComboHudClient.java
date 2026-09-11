@@ -171,7 +171,7 @@ public final class ComboHudClient implements ClientModInitializer {
         }
 
         Minecraft client = Minecraft.getInstance();
-        if (client.player == null || client.gui.getDebugOverlay().showDebugScreen()) {
+        if (client.player == null) {
             return;
         }
 
