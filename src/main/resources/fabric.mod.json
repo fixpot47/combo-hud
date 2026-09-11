@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "combohud",
+  "version": "${version}",
+  "name": "Combo HUD",
+  "description": "A lightweight client-side PvP combo counter displayed next to the hotbar.",
+  "authors": ["fixpot47"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.fixpot47.combohud.ComboHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
